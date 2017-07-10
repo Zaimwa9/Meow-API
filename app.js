@@ -5,7 +5,7 @@ var config=require('./config');
 var fs=require('fs');
 var request=require('request');
 var Users=require('./models/subscribemodel');
-var setupController=require('./controllers/setupController');
+//var setupController=require('./controllers/setupController');
 var bodyParser=require('body-parser');
 
 var html="";
@@ -75,7 +75,7 @@ app.post('/newuser', (req,res) => {
         };
 });  //update and/or delete
 
-setupController(app);
+//setupController(app);
 
 app.listen(port);
 
