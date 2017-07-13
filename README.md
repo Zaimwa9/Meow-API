@@ -6,6 +6,6 @@ A user model is ready to, in the future, turn it into a newsletter.
 
 ### Configure your MongoDB credentials
 1) Add a ~/config/config.json and ~/config/index.js to store your connection credentials;
-2) Require the config.json in app
+2) Require the config.json in app.js
 
 ### Deploy live
